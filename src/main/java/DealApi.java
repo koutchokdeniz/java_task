@@ -27,9 +27,7 @@ public class DealApi {
         Spark.port(8080); // Set the port for your API
         // Define the API endpoint to receive deals data
         Spark.post("/deals", "application/json", DealApi::handleDealsRequest);
-        logger.info("This is an info message.");
-        logger.debug("This is a debug message.");
-        logger.error("This is an error message.");
+
     }
 
     static String handleDealsRequest(Request req, Response res) {
