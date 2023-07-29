@@ -1,0 +1,11 @@
+2023-07-30 00:01:38 INFO  DealApi:30 - This is an info message.
+2023-07-30 00:01:38 ERROR DealApi:32 - This is an error message.
+2023-07-30 00:01:38 INFO  log:169 - Logging initialized @257ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-07-30 00:01:38 INFO  EmbeddedJettyServer:142 - == Spark has ignited ...
+2023-07-30 00:01:38 INFO  EmbeddedJettyServer:146 - >> Listening on 0.0.0.0:8080
+2023-07-30 00:01:38 INFO  Server:360 - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 11.0.12+8-LTS-237
+2023-07-30 00:01:38 INFO  session:334 - DefaultSessionIdManager workerName=node0
+2023-07-30 00:01:38 INFO  session:339 - No SessionScavenger set, using defaults
+2023-07-30 00:01:38 INFO  session:140 - node0 Scavenging every 660000ms
+2023-07-30 00:01:38 INFO  AbstractConnector:331 - Started ServerConnector@6fb61150{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2023-07-30 00:01:38 INFO  Server:400 - Started @415ms

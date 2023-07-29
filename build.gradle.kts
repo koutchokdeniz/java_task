@@ -24,6 +24,7 @@ dependencies {
     implementation("org.hibernate:hibernate-entitymanager:5.5.6.Final")
     implementation("javax.transaction:javax.transaction-api:1.3")
     implementation("com.h2database:h2:1.4.200")
+    implementation("log4j:log4j:1.2.17")
 
 
 

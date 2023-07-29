@@ -8,9 +8,12 @@ import java.time.Instant;
 import java.util.regex.Pattern;
 import java.util.Arrays;
 import java.util.List;
+import org.apache.log4j.Logger;
 
 
 public class DealApi {
+    private static final Logger logger = Logger.getLogger(DealApi.class);
+
     // Regex pattern to validate only numbers are used
     private static final Pattern DEAL_ID_PATTERN = Pattern.compile("\\d+");
     // sample list of valid ISO currencey codes
@@ -24,6 +27,9 @@ public class DealApi {
         Spark.port(8080); // Set the port for your API
         // Define the API endpoint to receive deals data
         Spark.post("/deals", "application/json", DealApi::handleDealsRequest);
+        logger.info("This is an info message.");
+        logger.debug("This is a debug message.");
+        logger.error("This is an error message.");
     }
 
     static String handleDealsRequest(Request req, Response res) {
